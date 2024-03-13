@@ -48,6 +48,13 @@ $cart-offcanvas-width: 28rem;
     }
 }
 
+.section-site-announcement {
+
+    .site-announcement-text {
+        @include font-size($font-size-base * 0.9);
+    }
+}
+
 .section-site-header {
     position: sticky;
     top: 0;
@@ -650,7 +657,7 @@ $cart-offcanvas-width: 28rem;
                         justify-self: var(--site-mobile-header-actions-items-align);
                         position: relative;
                         margin-right: -#{spacer(2)};
-                    }s
+                    }
 
                     .site-mobile-header-item {
                         display: flex;
