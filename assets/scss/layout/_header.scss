@@ -326,6 +326,7 @@ $cart-offcanvas-width: 28rem;
                 background-color: var(--style-bg-color);
                 padding-top: spacer(3);
                 padding-bottom: spacer(3);
+                --style-icon-stroke-width: var(--style-navigation-icon-stroke-width);
 
                 .site-header-menu {
                     display: flex;
