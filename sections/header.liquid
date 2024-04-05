@@ -114,23 +114,39 @@
     }
     #finqu-section-{{ section.id }} .site-header-container {
         --site-header-items-padding-y: {{ section.settings.headerItemsPaddingY }};
-        {%- if section.settings.logoPosition == 'start'-%}
-            --site-header-template-columns: 1fr auto 1fr;
+        {%- if request.page_type == 'frontpage' -%}
+            {%- if section.settings.logoPosition == 'start'-%}
+                --site-header-template-columns: auto 1fr auto;
+                --site-header-logo-position: items-start;
+                --site-header-logo-items-align: start;
+                --site-header-logo-margin: 0 20px;
+                --site-header-nav-position: items-center;
+                --site-header-nav-items-align: center;
+                --site-header-actions-position: items-end;
+                --site-header-actions-items-align: end;
+            {%- elsif section.settings.logoPosition == 'center'-%}
+                --site-header-template-columns: 20% 1fr 20%;
+                --site-header-logo-position: items-center;
+                --site-header-logo-items-align: center;
+                --site-header-logo-margin: 0 20px;
+                --site-header-nav-position: items-start;
+                --site-header-nav-items-align: start;
+                --site-header-actions-position: items-end;
+                --site-header-actions-items-align: end;
+            {%- endif -%}
+        {%- else -%}
+            --site-header-template-columns: auto 1fr auto;
             --site-header-logo-position: items-start;
             --site-header-logo-items-align: start;
             --site-header-logo-margin: 0 20px;
-            --site-header-actions-position: items-end;
-            --site-header-actions-items-align: end;
-        {%- elsif section.settings.logoPosition == 'center'-%}
-            --site-header-template-columns: 1fr auto 1fr;
-            --site-header-logo-position: items-center;
-            --site-header-logo-items-align: center;
-            --site-header-logo-margin: 0 20px;
+            --site-header-nav-position: items-center;
+            --site-header-nav-items-align: start;
             --site-header-actions-position: items-end;
             --site-header-actions-items-align: end;
         {%- endif -%}
     }
     #finqu-section-{{ section.id }} .site-mobile-header-container {
+        --site-mobile-header-items-padding-y: {{ section.settings.headerItemsPaddingY }};
         {%- if section.settings.mobileLogoPosition == 'start' -%}
             --site-mobile-header-template-columns: auto 1fr auto;
             --site-mobile-header-logo-position: items-center;
@@ -152,7 +168,8 @@
         {%- endif -%}
     }
     .template-frontpage #finqu-section-{{ section.id }} .site-header-container:not(.site-header-container-show):not(.site-header-container-hide) .site-header-items-container,
-    .template-frontpage #finqu-section-{{ section.id }} .site-header-container:not(.site-header-container-show):not(.site-header-container-hide) .site-header-nav-container {
+    .template-frontpage #finqu-section-{{ section.id }} .site-header-container:not(.site-header-container-show):not(.site-header-container-hide) .site-header-nav-container,
+    .template-frontpage #finqu-section-{{ section.id }} .site-mobile-header-container:not(.site-mobile-header-container-show):not(.site-mobile-header-container-hide) .site-mobile-header-items-container {
         --style-border-color: transparent;
         --style-text-color: {{ section.settings.secondaryContentColor }};
         --style-link-color: {{ section.settings.secondaryContentColor }};
@@ -415,27 +432,45 @@
                             {%- assign imgSizeOnPhone = '200,25' -%}
                             {%- assign imgSizeOnTablet = '400,35' -%}
 
+                            {% if section.settings.secondaryLogoImg and request.page_type == 'frontpage' %}
+
+                                <img
+                                    alt="{{ store.name }}"
+                                    src="{{ section.settings.secondaryLogoImg | thumb: imgSizeOnTablet }}"
+                                    srcset="{{ section.settings.secondaryLogoImg | thumb: imgSizeOnTablet }} 1x, {{ section.settings.secondaryLogoImg | thumb: imgSizeOnTablet | thumb:'@2x' }} 2x"
+                                    class="img-fluid site-mobile-header-secondary-logo-img d-none d-md-block">
+
+                                <img
+                                    alt="{{ store.name }}"
+                                    src="{{ section.settings.secondaryLogoImg | thumb: imgSizeOnPhone }}"
+                                    srcset="{{ section.settings.secondaryLogoImg | thumb: imgSizeOnPhone }} 1x, {{ section.settings.secondaryLogoImg | thumb: imgSizeOnPhone | thumb:'@2x' }} 2x"
+                                    class="img-fluid site-mobile-header-secondary-logo-img d-block d-md-none">
+
+                            {% endif %}
+
                             {% if section.settings.logoImg %}
 
                                 <img
                                     alt="{{ store.name }}"
                                     src="{{ section.settings.logoImg | thumb: imgSizeOnTablet }}"
                                     srcset="{{ section.settings.logoImg | thumb: imgSizeOnTablet }} 1x, {{ section.settings.logoImg | thumb: imgSizeOnTablet | thumb:'@2x' }} 2x"
-                                    class="img-fluid site-mobile-header-logo-img d-none d-md-block">
+                                    class="d-block img-fluid site-mobile-header-logo-img d-none d-md-block">
 
                                 <img
                                     alt="{{ store.name }}"
                                     src="{{ section.settings.logoImg | thumb: imgSizeOnPhone }}"
                                     srcset="{{ section.settings.logoImg | thumb: imgSizeOnPhone }} 1x, {{ section.settings.logoImg | thumb: imgSizeOnPhone | thumb:'@2x' }} 2x"
-                                    class="img-fluid site-mobile-header-logo-img d-block d-md-none">
+                                    class="d-block img-fluid site-mobile-header-logo-img d-block d-md-none">
 
-                            {% else %}
+                            {% endif %}
+
+                            {% unless section.settings.logoImg or section.settings.secondaryLogoImg %}
 
                                 <span class="site-mobile-header-logo-text">
                                     {{ store.name }}
                                 </span>
 
-                            {% endif %}
+                            {% endunless %}
 
                         </a>
 
@@ -1107,7 +1142,7 @@
                                 <img
                                     alt="{{ store.name }}"
                                     src="{{ section.settings.secondaryLogoImg | thumb: imgSize }}"
-                                    srcset="{{ section.settings.secondaryLogoImg | thumb: imgSize }} 1x, {{ section.settings.secondaryLogoImg | thumb: imgSize | thumb:'@2x' }} 2x" class="d-block img-fluid site-header-secondary-logo-img{% if section.settings.logoImg %} has-multiple-logos{% endif %}">
+                                    srcset="{{ section.settings.secondaryLogoImg | thumb: imgSize }} 1x, {{ section.settings.secondaryLogoImg | thumb: imgSize | thumb:'@2x' }} 2x" class="d-block img-fluid site-header-secondary-logo-img">
 
                             {% endif %}
 
@@ -1221,93 +1256,101 @@
 
                 </div>
 
+                <div class="site-header-items-nav-container">
+
+                    <div class="site-header-item">
+
+                        <nav class="site-header-nav-container">
+
+                            <ul class="site-header-menu container{% if section.settings.gridContainer %}-{{- section.settings.gridContainer -}}{% endif %}">
+
+                                {% for item in mainMenu.links %}
+
+                                    {%- assign skipIndex = false -%}
+                                    {%- assign mainMenuIndex = forloop.index %}
+                                    {%- assign mainMenuIndexes = '' -%}
+
+                                    {% for megamenu in section.settings.setting_blocks.megamenus %}
+
+                                        {% if megamenu.settings.index == mainMenuIndex %}
+
+                                            {%- assign mainMenuIndexes = mainMenuIndexes | split: ',' | compact -%}
+
+                                            {%- if mainMenuIndexes contains megamenu.settings.index -%}
+                                                {%- assign mainMenuIndexes = mainMenuIndexes | join: ',' -%}
+                                                {%- continue -%}
+                                            {%- else -%}
+                                                {%- assign mainMenuIndexes = mainMenuIndexes | join: ',' | append: megamenu.settings.index | append: ',' -%}
+                                            {%- endif -%}
+
+                                            {%- assign menu = linklists[megamenu.settings.menu] -%}
+                                            {%- assign skipIndex = true -%}
+
+                                            <li class="site-header-menu-item{% if item.current %} site-header-menu-item-active{% endif %}" data-header-menu-child-id="{{ mainMenuIndex }}">
+
+                                                {%- if item.url -%}
+
+                                                    <a href="{{ item.url }}" target="{{ item.target | default: '_self' }}" class="site-header-menu-item-text text-underline-indicator">
+                                                        {{ item.title }}
+                                                    </a>
+
+                                                {%- else -%}
+
+                                                    <span class="site-header-menu-item-text text-underline-indicator">
+                                                        {{ item.title }}
+                                                    </span>
+
+                                                {%- endif -%}
+
+                                                {%- render 'icon', icon: 'angle-down', class: 'site-header-submenu-indicator' -%}
+
+                                            </li>
+
+                                        {% endif %}
+
+                                    {% endfor %}
+
+                                    {%if skipIndex == false %}
+
+                                        <li class="site-header-menu-item{% if item.current %} site-header-menu-item-active{% endif %}"{% if item.links %} data-header-menu-child-id="{{ mainMenuIndex }}"{% endif %}>
+
+                                            {%- if item.url -%}
+
+                                                <a href="{{ item.url }}" target="{{ item.target | default: '_self' }}" class="site-header-menu-item-text text-underline-indicator">
+                                                    {{ item.title }}
+                                                </a>
+
+                                            {%- else -%}
+
+                                                <span class="site-header-menu-item-text text-underline-indicator">
+                                                    {{ item.title }}
+                                                </span>
+
+                                            {%- endif -%}
+
+                                            {% if item.links %}
+
+                                                {%- render 'icon', icon: 'angle-down', class: 'site-header-submenu-indicator' -%}
+
+                                            {% endif %}
+
+                                        </li>
+
+                                    {% endif %}
+
+                                {% endfor %}
+
+                            </ul>
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
-
-        <nav class="site-header-nav-container">
-
-            <ul class="site-header-menu container{% if section.settings.gridContainer %}-{{- section.settings.gridContainer -}}{% endif %}">
-
-                {% for item in mainMenu.links %}
-
-                    {%- assign skipIndex = false -%}
-                    {%- assign mainMenuIndex = forloop.index %}
-                    {%- assign mainMenuIndexes = '' -%}
-
-                    {% for megamenu in section.settings.setting_blocks.megamenus %}
-
-                        {% if megamenu.settings.index == mainMenuIndex %}
-
-                            {%- assign mainMenuIndexes = mainMenuIndexes | split: ',' | compact -%}
-
-                            {%- if mainMenuIndexes contains megamenu.settings.index -%}
-                                {%- assign mainMenuIndexes = mainMenuIndexes | join: ',' -%}
-                                {%- continue -%}
-                            {%- else -%}
-                                {%- assign mainMenuIndexes = mainMenuIndexes | join: ',' | append: megamenu.settings.index | append: ',' -%}
-                            {%- endif -%}
-
-                            {%- assign menu = linklists[megamenu.settings.menu] -%}
-                            {%- assign skipIndex = true -%}
-
-                            <li class="site-header-menu-item{% if item.current %} site-header-menu-item-active{% endif %}" data-header-menu-child-id="{{ mainMenuIndex }}">
-
-                                {%- if item.url -%}
-
-                                    <a href="{{ item.url }}" target="{{ item.target | default: '_self' }}" class="site-header-menu-item-text text-underline-indicator">
-                                        {{ item.title }}
-                                    </a>
-
-                                {%- else -%}
-
-                                    <span class="site-header-menu-item-text text-underline-indicator">
-                                        {{ item.title }}
-                                    </span>
-
-                                {%- endif -%}
-
-                                {%- render 'icon', icon: 'angle-down', class: 'site-header-submenu-indicator' -%}
-
-                            </li>
-
-                        {% endif %}
-
-                    {% endfor %}
-
-                    {%if skipIndex == false %}
-
-                        <li class="site-header-menu-item{% if item.current %} site-header-menu-item-active{% endif %}"{% if item.links %} data-header-menu-child-id="{{ mainMenuIndex }}"{% endif %}>
-
-                            {%- if item.url -%}
-
-                                <a href="{{ item.url }}" target="{{ item.target | default: '_self' }}" class="site-header-menu-item-text text-underline-indicator">
-                                    {{ item.title }}
-                                </a>
-
-                            {%- else -%}
-
-                                <span class="site-header-menu-item-text text-underline-indicator">
-                                    {{ item.title }}
-                                </span>
-
-                            {%- endif -%}
-
-                            {% if item.links %}
-
-                                {%- render 'icon', icon: 'angle-down', class: 'site-header-submenu-indicator' -%}
-
-                            {% endif %}
-
-                        </li>
-
-                    {% endif %}
-
-                {% endfor %}
-
-            </ul>
-
-        </nav>
 
         <nav class="site-header-subnav-container">
 
