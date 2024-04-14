@@ -16,14 +16,18 @@ $cart-offcanvas-width: 28rem;
             }
 
             & + .finqu-sections-container > section:first-of-type > .section-inner {
-                margin-top: -165px;
+                margin-top: -74px;
+
+                @include media-breakpoint-up(md) {
+                    margin-top: -165px;
+                }
             }
         }
     }
 
     .section-site-header {
         position: relative;
-        height: 55px;
+        height: 74px;
 
         @include media-breakpoint-up(md) {
             height: 165px;
@@ -37,7 +41,7 @@ $cart-offcanvas-width: 28rem;
         }
 
         & + .section {
-            margin-top: -55px;
+            margin-top: -74px;
 
             @include media-breakpoint-up(md) {
                 margin-top: -165px;
@@ -80,6 +84,7 @@ $cart-offcanvas-width: 28rem;
                 }
             }
 
+            &.site-header-container-hide,
             &.site-header-container-show {
             
                 .site-header {

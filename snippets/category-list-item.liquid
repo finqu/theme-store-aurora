@@ -6,7 +6,7 @@
 	- currentCategory: {Object} category Liquid object (required)
 
 	Usage:
-	{% render 'category-list-item', category: category, currentCategory: category %}
+	{% render 'sidebar-menu-item', category: category, currentCategory: category %}
 {% endcomment %}
 
 {%- if category.is_visible and category.categories.size > 0 -%}
@@ -15,19 +15,19 @@
 
 {%- if hasSubCategories and category.id == currentCategory.id or category.child_current -%}
 
-	<li class="category-list-item{% if category.id == currentCategory.id %} active-item{% endif %}{% if category.id == currentCategory.id or category.child_current %} has-active-item{% endif %}">
+	<li class="sidebar-menu-item{% if category.id == currentCategory.id %} active-item{% endif %}{% if category.id == currentCategory.id or category.child_current %} has-active-item{% endif %}">
 
 		{%- if category.id == currentCategory.id -%}
 
-			<span class="category-list-item-text">
+			<span class="sidebar-menu-item-text">
 				{{- category.title -}}
 			</span>
 
 		{%- else -%}
 
-			<a href="{{ category | link }}" class="category-list-item-link">
+			<a href="{{ category | link }}" class="sidebar-menu-item-link">
 
-				<span class="category-list-item-text">
+				<span class="sidebar-menu-item-text">
 					{{- category.title -}}
 				</span>
 
@@ -37,11 +37,11 @@
 
 		{%- if category.categories.size > 0 -%}
 
-	        <ul class="category-list-subcategory-container">
+	        <ul class="sidebar-menu-subcategory-container">
 
 	            {%- for item in category.categories -%}
 
-	                {%- render 'category-list-item', category: item, currentCategory: currentCategory -%}
+	                {%- render 'sidebar-menu-item', category: item, currentCategory: currentCategory -%}
 
 	            {%- endfor -%}
 
@@ -53,19 +53,19 @@
 
 {% elsif category.is_visible -%}
 
-	<li class="category-list-item{% if category.id == currentCategory.id %} active-item{% endif %}">
+	<li class="sidebar-menu-item{% if category.id == currentCategory.id %} active-item{% endif %}">
 
 		{%- if category.id == currentCategory.id -%}
 
-			<span class="category-list-item-text">
+			<span class="sidebar-menu-item-text">
 				{{- category.title -}}
 			</span>
 
 		{%- else -%}
 
-			<a href="{{ category | link }}" class="category-list-item-link">
+			<a href="{{ category | link }}" class="sidebar-menu-item-link">
 
-				<span class="category-list-item-text">
+				<span class="sidebar-menu-item-text">
 					{{- category.title -}}
 				</span>
 
