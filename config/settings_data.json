@@ -52,7 +52,7 @@
             "sectionHighlightItemBorder": "",
             "sectionTextAlign": "start",
             "sectionQuickLinkStyle": "primary",
-            "sectionAnimation": "animate__fadeInUp",
+            "sectionAnimation": "animation-fadeInUp",
             "style_accent_color": "#e5876e",
             "style_btn_bg_color": "#c47e6b",
             "style_btn_text_color": "#ffffff",
@@ -201,7 +201,7 @@
                 "id": "header",
                 "name": "header",
                 "settings": {
-                    "headerItemsPaddingY": "2.2rem",
+                    "headerItemsPaddingY": "3.2rem",
                     "logoImg": {
                         "string_value": "",
                         "src": "",
@@ -908,7 +908,7 @@
                 "sectionHighlightItemBorder": "",
                 "sectionTextAlign": "start",
                 "sectionQuickLinkStyle": "primary",
-                "sectionAnimation": "animate__fadeInUp",
+                "sectionAnimation": "animation-fadeInUp",
                 "style_accent_color": "#e5876e",
                 "style_btn_bg_color": "#c47e6b",
                 "style_btn_text_color": "#ffffff",
@@ -1057,7 +1057,7 @@
                     "id": "header",
                     "name": "header",
                     "settings": {
-                        "headerItemsPaddingY": "2.2rem",
+                        "headerItemsPaddingY": "3.2rem",
                         "logoImg": {
                             "string_value": "",
                             "src": "",
