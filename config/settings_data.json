@@ -249,9 +249,9 @@
                                 "settings": {
                                     "announcementLink": {
                                         "type": "url",
-                                        "record_id": "",
+                                        "record_id": "15609558",
                                         "text": "Ilmainen toimitus yli 100\u20ac tilauksille.",
-                                        "url": "",
+                                        "url": "\/tuotteet",
                                         "target": "_self"
                                     }
                                 }
@@ -261,9 +261,9 @@
                                 "settings": {
                                     "announcementLink": {
                                         "type": "url",
-                                        "record_id": "",
+                                        "record_id": "15609558",
                                         "text": "Kotimainen verkkokauppa Viitasaarelta",
-                                        "url": "",
+                                        "url": "\/tuotteet",
                                         "target": "_self"
                                     }
                                 }
@@ -273,13 +273,11 @@
                                 "settings": {
                                     "announcementLink": {
                                         "type": "url",
-                                        "record_id": "",
+                                        "record_id": "15609558",
                                         "text": "Kaikki ihonhoitotuotteet -20% kuun loppuun saakka",
-                                        "url": "",
+                                        "url": "\/tuotteet",
                                         "target": "_self"
-                                    },
-                                    "type": "text",
-                                    "title": "ilmoitus"
+                                    }
                                 }
                             }
                         }
@@ -349,9 +347,9 @@
                             "sectionSubtitle": "Tutustu kes\u00e4n kuumimpiin uutuuksiin ja p\u00e4ivit\u00e4 meikkikokoelmasi kes\u00e4n pirteill\u00e4 v\u00e4reill\u00e4!",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15609558",
                                 "text": "Shoppaile nyt",
-                                "url": "",
+                                "url": "\/tuotteet",
                                 "target": "_self"
                             },
                             "sectionBgImg": {
@@ -389,6 +387,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "Suosittua",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
@@ -396,7 +395,7 @@
                                 "url": ""
                             },
                             "carouselItemsPerView": "6",
-                            "sectionTextAlign": "nil",
+                            "sectionTextAlign": "center",
                             "sectionQuickLinkStyle": "nil",
                             "textPosition": "below",
                             "textColor": "#ffffff",
@@ -414,6 +413,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -448,7 +448,7 @@
                                             "resource": {
                                                 "type": "url",
                                                 "record_id": "",
-                                                "text": "",
+                                                "text": "Seerumit",
                                                 "url": "",
                                                 "target": "_self"
                                             }
@@ -473,7 +473,7 @@
                                             "resource": {
                                                 "type": "url",
                                                 "record_id": "",
-                                                "text": "",
+                                                "text": "Shampoot",
                                                 "url": "",
                                                 "target": "_self"
                                             }
@@ -498,7 +498,7 @@
                                             "resource": {
                                                 "type": "url",
                                                 "record_id": "",
-                                                "text": "",
+                                                "text": "Saippuat",
                                                 "url": "",
                                                 "target": "_self"
                                             }
@@ -522,9 +522,9 @@
                                             },
                                             "resource": {
                                                 "type": "url",
-                                                "record_id": "",
-                                                "text": "Kuiva iho",
-                                                "url": "",
+                                                "record_id": "15639583",
+                                                "text": "Tarinamme",
+                                                "url": "\/tarinamme",
                                                 "target": "_self"
                                             }
                                         }
@@ -547,9 +547,9 @@
                                             },
                                             "resource": {
                                                 "type": "url",
-                                                "record_id": "",
-                                                "text": "",
-                                                "url": "",
+                                                "record_id": "15639578",
+                                                "text": "Myym\u00e4l\u00e4",
+                                                "url": "\/tehtaanmyymala",
                                                 "target": "_self"
                                             }
                                         }
@@ -572,9 +572,9 @@
                                             },
                                             "resource": {
                                                 "type": "url",
-                                                "record_id": "",
-                                                "text": "",
-                                                "url": "",
+                                                "record_id": "15609608",
+                                                "text": "Blogi",
+                                                "url": "\/blogi",
                                                 "target": "_self"
                                             }
                                         }
@@ -592,6 +592,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "Tutustu valikoimaan",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
@@ -623,6 +624,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -641,7 +643,7 @@
                                     "3136312542826423": {
                                         "type": "text",
                                         "settings": {
-                                            "title": "Uutuudet",
+                                            "title": "Uutta kaupassa",
                                             "listType": "recent",
                                             "tagId": "",
                                             "category": {
@@ -659,8 +661,8 @@
                                     "1485272252048968": {
                                         "type": "text",
                                         "settings": {
-                                            "title": "Ale",
-                                            "listType": "recent",
+                                            "title": "Parhaat alennukset",
+                                            "listType": "discounted",
                                             "tagId": "",
                                             "category": {
                                                 "type": "category",
@@ -690,9 +692,9 @@
                             "sectionSubtitle": "Nappaa kuukauden parhaat kauneustarjoukset ennen kuin ne loppuvat - shoppaile nyt!",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15609558",
                                 "text": "Shoppaile nyt",
-                                "url": "",
+                                "url": "\/tuotteet",
                                 "target": "_self"
                             },
                             "datetime": "2027-11-08T14:10:00.000+00:00",
@@ -856,6 +858,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "Suosittua br\u00e4ndeilt\u00e4",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
@@ -891,6 +894,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -909,7 +913,7 @@
                                     "3136312542826423": {
                                         "type": "text",
                                         "settings": {
-                                            "title": "Superdry",
+                                            "title": "Nivea",
                                             "listType": "manufacturer",
                                             "tagId": "",
                                             "category": {
@@ -919,26 +923,26 @@
                                             },
                                             "manufacturer": {
                                                 "type": "manufacturer",
-                                                "id": "91706",
-                                                "name": "Superdry"
+                                                "id": "1946671",
+                                                "name": "Nivea"
                                             },
                                             "showPromotionSlide": true,
-                                            "promotionText": "Superdry",
+                                            "promotionText": "Nivea",
                                             "promotionLinkResource": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15681991",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/valmistaja\/nivea",
                                                 "target": "_self"
                                             },
                                             "promotionTextColor": "#ffffff",
                                             "promotionImg": {
-                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/upload9223368955666219996.jpg",
-                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/upload9223368955666219996.jpg",
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bcccc42b1058426ba425cd968e946d8b-screen.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bcccc42b1058426ba425cd968e946d8b-screen.webp",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
-                                                "width": "1000",
-                                                "height": "820"
+                                                "width": "960",
+                                                "height": "768"
                                             },
                                             "promotionImgDimming": "20"
                                         }
@@ -946,7 +950,7 @@
                                     "1485272252048968": {
                                         "type": "text",
                                         "settings": {
-                                            "title": "Br\u00e4ndi 2",
+                                            "title": "Labello",
                                             "listType": "manufacturer",
                                             "tagId": "",
                                             "category": {
@@ -956,26 +960,26 @@
                                             },
                                             "manufacturer": {
                                                 "type": "manufacturer",
-                                                "id": "91706",
-                                                "name": "Superdry"
+                                                "id": "1946679",
+                                                "name": "Labello"
                                             },
                                             "showPromotionSlide": true,
-                                            "promotionText": "Ale",
+                                            "promotionText": "Labello",
                                             "promotionLinkResource": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15682791",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/valmistaja\/labello",
                                                 "target": "_self"
                                             },
                                             "promotionTextColor": "#ffffff",
                                             "promotionImg": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1445633814773-e687a5de9baa",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1445633814773-e687a5de9baa",
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/eb1ec280b3374542af9e6e55a278c38b-screen.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/eb1ec280b3374542af9e6e55a278c38b-screen.webp",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
-                                                "width": "1080",
-                                                "height": "1080"
+                                                "width": "960",
+                                                "height": "768"
                                             },
                                             "promotionImgDimming": "20"
                                         }
@@ -995,9 +999,9 @@
                             "sectionSubtitle": "Hemmottele ihoasi premium-luokan ihonhoitotuotteillamme - tilaa nyt ja koe ero!",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15609558",
                                 "text": "Shoppaile nyt",
-                                "url": "",
+                                "url": "\/tuotteet",
                                 "target": "_self"
                             },
                             "sectionBgImg": {
@@ -1068,8 +1072,8 @@
                         "settings": {
                             "product": {
                                 "type": "product",
-                                "id": "26238843",
-                                "name": "Painokuvioitu napitettava midimittainen camimekko hibiscus dot"
+                                "id": "26270523",
+                                "name": "Rich Nourishing Body Milk"
                             },
                             "showManufacturer": true,
                             "showPromotion": true,
@@ -1220,9 +1224,9 @@
                             "datetime": "",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15609558",
                                 "text": "Shoppaile nyt",
-                                "url": "",
+                                "url": "\/tuotteet",
                                 "target": "_self"
                             },
                             "sectionTextAlign": "center",
@@ -1247,17 +1251,23 @@
                             "sectionOverline": "",
                             "sectionTitle": "Me palvelemme",
                             "sectionSubtitle": "",
-                            "memberPerRow": "3",
+                            "sectionDescription": "",
+                            "memberPerRow": "5",
+                            "sectionHeaderTextAlign": "nil",
                             "sectionTextAlign": "center",
+                            "contentAlign": "center",
                             "imgShape": "default",
                             "imgAspectRatio": "1:1",
                             "imgFit": true,
+                            "gutterMode": "custom",
+                            "gutterWidth": "5",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -1284,8 +1294,8 @@
                                                 "width": "1080",
                                                 "height": "1080"
                                             },
-                                            "name": "Sara Lehtonen",
-                                            "role": "Asiakaspalvelujohtaja",
+                                            "name": "Sara",
+                                            "role": "Asiakaspalvelu",
                                             "additionalInformation": ""
                                         }
                                     },
@@ -1300,8 +1310,8 @@
                                                 "width": "1080",
                                                 "height": "1080"
                                             },
-                                            "name": "Mikko Korhonen",
-                                            "role": "Markkinointistrategi",
+                                            "name": "Mikko",
+                                            "role": "Markkinointi",
                                             "additionalInformation": ""
                                         }
                                     },
@@ -1316,8 +1326,8 @@
                                                 "width": "1080",
                                                 "height": "1080"
                                             },
-                                            "name": "Emma Virtanen",
-                                            "role": "Tuotekehitysp\u00e4\u00e4llikk\u00f6",
+                                            "name": "Emma",
+                                            "role": "Tuotekehitys",
                                             "additionalInformation": ""
                                         }
                                     }
@@ -1558,6 +1568,17 @@
                             "sectionBgImgBlur": "0"
                         },
                         "blocks": []
+                    }
+                ]
+            },
+            "cart": {
+                "sections": [
+                    {
+                        "name": "cart-template",
+                        "id": "cart-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
                     }
                 ]
             }
