@@ -18,7 +18,7 @@
             "styleGridGutterWidth": "1.42855rem",
             "styleIconStrokeWidth": "1.5px",
             "styleFormFloatingHeight": "2.90rem",
-            "styleFormFloatingLineHeight": "1.25",
+            "styleFormFloatingLineHeight": "1.4",
             "styleFormFloatingPaddingY": "0.8rem",
             "styleFormFloatingPaddingX": "1rem",
             "styleFormFloatingInputPaddingT": "1.525rem",
@@ -146,7 +146,7 @@
             "productShowVariantOption3TaxonomyType": false,
             "productShowName": true,
             "productShowManufacturer": true,
-            "productShowPromotion": true,
+            "productShowPromotion": false,
             "productShowPricing": true,
             "productShowRating": true,
             "productShowNewBadge": true,
@@ -288,15 +288,8 @@
                 "id": "footer",
                 "name": "footer",
                 "settings": {
-                    "footerGap": "4rem",
-                    "footerPaddingTop": "5rem",
-                    "footerPaddingBottom": "5rem",
-                    "footerTopBorder": true,
-                    "footerTopBorderFluid": true,
-                    "footerBottomBorder": false,
-                    "footerBottomBorderFluid": false,
                     "footerTextArea1Title": "Meist\u00e4",
-                    "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit\u00e4 tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv\u00e4isyyteen pyrimme tarjoamaan sinulle uusimmat trendit, ly\u00f6m\u00e4tt\u00f6m\u00e4t hinnat ja vertaansa vailla olevan palvelun.<\/p>",
+                    "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit&auml; tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv&auml;isyyteen pyrimme tarjoamaan sinulle vertaansa vailla olevan palvelun.<\/p>",
                     "footerTextArea2Content": "<p>\u00a9 2024 Aurora<\/p>",
                     "footerNewsletterTitle": "Uutiskirje",
                     "footerNewsletterContent": "<p>Tilaa uutiskirje saadaksesi ilmoituksia uusista tuotteista, erikoistarjouksista ja tapahtumista.<\/p>",
@@ -324,6 +317,13 @@
                     "footerMenu2": "",
                     "footerMenu3Title": "",
                     "footerMenu3": "",
+                    "footerGap": "4rem",
+                    "footerPaddingTop": "5rem",
+                    "footerPaddingBottom": "5rem",
+                    "footerTopBorder": true,
+                    "footerTopBorderFluid": true,
+                    "footerBottomBorder": "",
+                    "footerBottomBorderFluid": "",
                     "footerLayout": "2",
                     "footerTextArea1Status": true,
                     "footerTextArea2Status": true,
@@ -737,6 +737,7 @@
                             "sectionOverline": "Br\u00e4ndit",
                             "sectionTitle": "Shoppaile br\u00e4ndej\u00e4",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "colPerRow": "9",
                             "sectionHeaderTextAlign": "center",
                             "logoAlign": "center",
@@ -746,6 +747,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": true,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -772,7 +774,13 @@
                                                 "width": "217",
                                                 "height": "735"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15681991",
+                                                "url": "\/valmistaja\/nivea",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     {
@@ -786,7 +794,13 @@
                                                 "width": "152",
                                                 "height": "494"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15681991",
+                                                "url": "\/valmistaja\/nivea",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     {
@@ -800,7 +814,13 @@
                                                 "width": "123",
                                                 "height": "505"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15681991",
+                                                "url": "\/valmistaja\/nivea",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     {
@@ -814,7 +834,13 @@
                                                 "width": "109",
                                                 "height": "502"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15681991",
+                                                "url": "\/valmistaja\/nivea",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     {
@@ -828,7 +854,13 @@
                                                 "width": "457",
                                                 "height": "618"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15681991",
+                                                "url": "\/valmistaja\/nivea",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     {
@@ -842,7 +874,13 @@
                                                 "width": "233",
                                                 "height": "538"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15681991",
+                                                "url": "\/valmistaja\/nivea",
+                                                "target": "_self"
+                                            }
                                         }
                                     }
                                 ]
@@ -937,8 +975,8 @@
                                             },
                                             "promotionTextColor": "#ffffff",
                                             "promotionImg": {
-                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bcccc42b1058426ba425cd968e946d8b-screen.webp",
-                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bcccc42b1058426ba425cd968e946d8b-screen.webp",
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/0660365ed39d4c1da60bd16a147e46b8-screen.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/0660365ed39d4c1da60bd16a147e46b8-screen.webp",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
                                                 "width": "960",
@@ -974,12 +1012,12 @@
                                             },
                                             "promotionTextColor": "#ffffff",
                                             "promotionImg": {
-                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/eb1ec280b3374542af9e6e55a278c38b-screen.webp",
-                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/eb1ec280b3374542af9e6e55a278c38b-screen.webp",
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/5cae4860a41b40db8dd9ba0e84992781-screen.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/5cae4860a41b40db8dd9ba0e84992781-screen.webp",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
-                                                "width": "960",
-                                                "height": "768"
+                                                "width": "1200",
+                                                "height": "960"
                                             },
                                             "promotionImgDimming": "20"
                                         }
@@ -1109,6 +1147,7 @@
                             "sectionOverline": "Tuotearvostelut",
                             "sectionTitle": "Asiakkaiden rakastamia tuotteita",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "carouselItemsPerView": "3",
                             "sectionHighlightItems": true,
                             "sectionHeaderTextAlign": "nil",
@@ -1124,6 +1163,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": true,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -1142,69 +1182,72 @@
                                     {
                                         "type": "text",
                                         "settings": {
-                                            "heading": "Otsikko1",
-                                            "author": "Kirjoittaja",
-                                            "authorInfo": "Lis\u00e4tiedot",
+                                            "heading": "Nivea Q10 Anti-Wrinkle Power Ultra Recovery Beauty Sleep Night Serum",
+                                            "description": "<p>Nyt kuukauden ajan ollut k\u00e4yt\u00f6ss\u00e4 ja tulokset ovat h\u00e4mm\u00e4stytt\u00e4vi\u00e4. Huomasin ihoni tuntuvan kimmoisammalta ja sile\u00e4mm\u00e4lt\u00e4 jo muutaman k\u00e4ytt\u00f6kerran j\u00e4lkeen. Seerumi imeytyy nopeasti eik\u00e4 j\u00e4t\u00e4 ihoa rasvaiseksi, mik\u00e4 on suuri plussa.&nbsp;<\/p>",
+                                            "author": "Anne",
+                                            "authorInfo": "Helsinki",
                                             "resource": {
                                                 "type": "url",
-                                                "record_id": "",
-                                                "url": "",
-                                                "target": "_self"
-                                            },
-                                            "rating": "4",
-                                            "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1498843053639-170ff2122f35?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyNXx8YmVhdXR5fGVufDB8fDF8fDE3MTQ4MzY2OTR8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1498843053639-170ff2122f35?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyNXx8YmVhdXR5fGVufDB8fDF8fDE3MTQ4MzY2OTR8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
-                                                "offset_top": "50",
-                                                "offset_left": "50",
-                                                "width": "5184",
-                                                "height": "3456"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "type": "text",
-                                        "settings": {
-                                            "heading": "Otsikko",
-                                            "author": "Kirjoittaja",
-                                            "authorInfo": "Lis\u00e4tiedot",
-                                            "resource": {
-                                                "type": "url",
-                                                "record_id": "",
-                                                "url": "",
+                                                "record_id": "15682895",
+                                                "url": "\/tuote\/q10-anti-wrinkle-power-ultra-recovery-beauty-sleep-night-serum",
                                                 "target": "_self"
                                             },
                                             "rating": "5",
                                             "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1501644898242-cfea317d7faf?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw0fHxiZWF1dHl8ZW58MHx8MXx8MTcxNDgzNjQzNHww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1501644898242-cfea317d7faf?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw0fHxiZWF1dHl8ZW58MHx8MXx8MTcxNDgzNjQzNHww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/245a1503f07d4b55b7427b9ce1a84523-screen.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/245a1503f07d4b55b7427b9ce1a84523-screen.webp",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
-                                                "width": "5760",
-                                                "height": "3840"
+                                                "width": "960",
+                                                "height": "768"
                                             }
                                         }
                                     },
                                     {
                                         "type": "text",
                                         "settings": {
-                                            "heading": "Otsikko",
-                                            "author": "Kirjoittaja",
-                                            "authorInfo": "Lis\u00e4tiedot",
+                                            "heading": "Labello Blackberry Shine",
+                                            "description": "<p>T\u00e4m\u00e4 huulivoide on ehdoton suosikkini! Sen karhunvatukan aromi on todella herkullinen, ja se j\u00e4tt\u00e4\u00e4 huulille kauniin viininpunaisen kiillon, joka n\u00e4ytt\u00e4\u00e4 luonnolliselta mutta huolitellulta. Voide my\u00f6s kosteuttaa huulia tehokkaasti, j\u00e4tt\u00e4en ne pehmeiksi ja sileiksi pitk\u00e4ksi aikaa.<\/p>",
+                                            "author": "Erica",
+                                            "authorInfo": "Tampere",
                                             "resource": {
                                                 "type": "url",
-                                                "record_id": "",
-                                                "url": "",
+                                                "record_id": "15682951",
+                                                "url": "\/tuote\/blackberry-shine",
                                                 "target": "_self"
                                             },
-                                            "rating": "3",
+                                            "rating": "4",
                                             "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1585945037805-5fd82c2e60b1?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8YmVhdXR5fGVufDB8fDF8fDE3MTQ4MzY0MzR8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1585945037805-5fd82c2e60b1?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxOHx8YmVhdXR5fGVufDB8fDF8fDE3MTQ4MzY0MzR8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/eb1ec280b3374542af9e6e55a278c38b-screen.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/eb1ec280b3374542af9e6e55a278c38b-screen.webp",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
-                                                "width": "2694",
-                                                "height": "2532"
+                                                "width": "960",
+                                                "height": "768"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "Nivea Fresh Blends Refreshing Shower Raspberry",
+                                            "description": "<p id=\"isPasted\">Shower Raspberry -suihkugeeli on todellinen piristys aamurutiineihin! Sen raikas vadelman tuoksu her\u00e4tt\u00e4\u00e4 aistit ja tuo energiaa p\u00e4iv\u00e4\u00e4n. K\u00e4yt\u00f6n j\u00e4lkeen iho tuntuu silkinpehme\u00e4lt\u00e4 ja n\u00e4ytt\u00e4\u00e4 kauniilta ja s\u00e4teilev\u00e4lt\u00e4, mik\u00e4 tekee t\u00e4st\u00e4 suihkugeelist\u00e4 ehdottoman suosikkini!<\/p>",
+                                            "author": "Leila",
+                                            "authorInfo": "Oulu",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "15682619",
+                                                "url": "\/tuote\/fresh-blends-refreshing-shower-raspberry",
+                                                "target": "_self"
+                                            },
+                                            "rating": "5",
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/f05a43152f384105af5b11b82f79a387-web_1010x1180_transparent_png.webp",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/f05a43152f384105af5b11b82f79a387-web_1010x1180_transparent_png.webp",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "897",
+                                                "height": "768"
                                             }
                                         }
                                     }
@@ -1471,7 +1514,30 @@
                         "name": "product-template",
                         "id": "product-template",
                         "blocks": [],
-                        "settings": [],
+                        "settings": {
+                            "detailsFreeShippingLimit": "100",
+                            "detailsShippingAndReturnRichtext": "<p id=\"isPasted\"><strong>Ilmainen toimitus yli 100&euro; tilauksille!<\/strong><\/p><p>Nauti ilmaisesta toimituksesta, kun tilauksesi ylitt&auml;&auml; 100&euro;! Kaikkiin pienempiin tilauksiin lis&auml;t&auml;&auml;n standardi toimitusmaksu, joka n&auml;ytet&auml;&auml;n kassalla.<\/p><p><strong>Aina ilmainen palautus!<\/strong><\/p><p>Meille on t&auml;rke&auml;&auml;, ett&auml; olet tyytyv&auml;inen ostoksiisi. Siksi tarjoamme aina ilmaisen palautuksen, mik&auml;li haluat vaihtaa tai palauttaa tuotteen. Palautusoikeus on voimassa 30 p&auml;iv&auml;&auml; tilauksen vastaanottamisesta.<\/p>",
+                            "detailsPaymentRichtext": "<p id=\"isPasted\">Turvallista ostamista!<\/p><p>Meille on t&auml;rke&auml;&auml;, ett&auml; ostokokemuksesi on sek&auml; miellytt&auml;v&auml; ett&auml; turvallinen. Siksi tarjoamme laajan valikoiman suosituimpia ja luotettavia maksutapoja:<br><br><\/p><ul><li><strong>Verkkopankit<\/strong>: Maksa suoraan omasta verkkopankistasi.<\/li><li><strong>Korttimaksut<\/strong>: Maksa k&auml;tev&auml;sti Visa, MasterCard tai American Express -korteilla.<\/li><li><strong>Klarna<\/strong>: Osta Klarnalla, jolloin voit p&auml;&auml;tt&auml;&auml; maksatko heti, my&ouml;hemmin tai osissa.<\/li><\/ul>",
+                            "showBreadcrumbs": true,
+                            "showBuyNowButton": true,
+                            "showQuantitySelect": false,
+                            "showProductQuestionForm": true,
+                            "openProductDescriptionByDefault": true,
+                            "showLowestPrice": true,
+                            "showVariantSelectionAsDropdown": false,
+                            "showProductCustomizationPrice": true,
+                            "showProductCustomizationTotalPrice": false,
+                            "showProductCustomizationStockBalance": false,
+                            "customDisplayInformation": false,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showStockBalance": true,
+                            "showRelatedProductsAsOptions": false
+                        },
                         "sticky": true
                     }
                 ]
@@ -1512,23 +1578,24 @@
             "page": {
                 "sections": [
                     {
-                        "id": "ef7821193e4c1bf4bdfb7678853f95f9",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "59f27cba5aabd551ccea75a4156ee02d",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "10 syyt\u00e4 valita Aurora",
-                            "sectionSubtitle": "Aurora on kauneuden verkkokauppa, joka ymm\u00e4rt\u00e4\u00e4, kuinka t\u00e4rke\u00e4 osa kauneudenhoito voi olla jokap\u00e4iv\u00e4isess\u00e4 el\u00e4m\u00e4ss\u00e4si. Me uskomme, ett\u00e4 jokainen hetki, jonka viet\u00e4t itsesi hemmotteluun, on investointi omaan hyvinvointiisi.",
+                            "sectionSubtitle": "Aurora on kauneuden verkkokauppa, joka ymm\u00e4rt\u00e4\u00e4, kuinka t\u00e4rke\u00e4 osa kauneudenhoito voi olla jokap\u00e4iv\u00e4isess\u00e4 el\u00e4m\u00e4ss\u00e4si.",
+                            "sectionDescription": "<p>Me uskomme, ett&auml; jokainen hetki, jonka viet&auml;t itsesi hemmotteluun, on investointi omaan hyvinvointiisi. T&auml;ss&auml; on kymmenen syyt&auml;, miksi Aurora on oikea valinta sinulle:<\/p>",
                             "sectionContainer": "compact",
-                            "sectionHeaderTextAlign": "nil",
-                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionHeaderTextAlign": "start",
+                            "sectionHeaderFontSizeScale": "1.2",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "7",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -1548,7 +1615,7 @@
                         "title": "Teksti",
                         "name": "text",
                         "settings": {
-                            "richtext": "<p>T&auml;ss&auml; on kymmenen syyt&auml;, miksi Aurora on oikea valinta sinulle:<br><br><\/p><h2>1. Huolella valikoitu tuotevalikoima<\/h2><p>Meilt&auml; l&ouml;yd&auml;t vain parhaat, testatut tuotteet, jotka t&auml;ytt&auml;v&auml;t korkeimmat laatuvaatimukset ja sopivat kaikenlaisille iho- ja hiustyypeille.<br><br><\/p><h2>2. Ymp&auml;rist&ouml;tietoisuus<\/h2><p>Sitoudumme tarjoamaan tuotteita, jotka ovat paitsi tehokkaita, my&ouml;s ymp&auml;rist&ouml;yst&auml;v&auml;llisi&auml;. Valikoimamme sis&auml;lt&auml;&auml; runsaasti luonnonmukaisia ja cruelty-free tuotteita.<br><br><\/p><h2>3. Asiantunteva asiakaspalvelu<\/h2><p>Meid&auml;n koulutettu tiimimme on valmiina auttamaan sinua l&ouml;yt&auml;m&auml;&auml;n juuri oikeat tuotteet. Voit aina k&auml;&auml;nty&auml; puoleemme kysymyksiss&auml;si.<br><br><\/p><h2>4. Jatkuvat tarjoukset ja kampanjat<\/h2><p>Tarjoamme asiakkaillemme jatkuvasti vaihtuvia tarjouksia ja kampanjoita, jotta voit l&ouml;yt&auml;&auml; suosikkituotteesi parhaaseen hintaan.<br><br><\/p><h2>5. Ilmainen toimitus tietyill&auml; ehdoilla<\/h2><p>Kun ostoksesi ylitt&auml;v&auml;t tietyn summan, saat tilauksesi toimitettuna ilman lis&auml;kuluja suoraan kotiovellesi.<br><br><\/p><h2>6. Nopeat toimitusajat<\/h2><p>Tied&auml;mme, ett&auml; odottaminen on tuskallista, siksi pyrimme varmistamaan, ett&auml; jokainen tilaus saapuu nopeasti ja luotettavasti.<br><br><\/p><h2>7. Helppo ja turvallinen maksaminen<\/h2><p>Tarjoamme useita maksutapoja, jotka ovat kaikki 100% turvallisia, jotta voit tehd&auml; ostoksia huoletta.<br><br><\/p><h2>8. Eksklusiiviset tuotteet<\/h2><p>Meilt&auml; l&ouml;yd&auml;t monia tuotemerkkej&auml; ja tuotteita, joita et muualta saa, antaen sinulle mahdollisuuden kokea ainutlaatuisia kauneudenhoitotuotteita.<br><br><\/p><h2>9. Kanta-asiakasohjelma<\/h2><p>Liity kanta-asiakkaaksi ja nauti erityiseduista, pisteist&auml;, jotka kertyv&auml;t jokaisesta ostoksestasi, ja erikoistarjouksista, jotka on suunnattu vain j&auml;senillemme.<br><br><\/p><h2>10. Tyytyv&auml;isyystakuu<\/h2><p>Olemme niin varmoja tuotteidemme laadusta, ett&auml; tarjoamme tyytyv&auml;isyystakuun: jos et ole tyytyv&auml;inen ostokseesi, voit palauttaa sen.<\/p><p><br><\/p><p>Kun valitset Auroran, valitset enemm&auml;n kuin vain kauneudenhoitotuotteita. Valitset kumppanin, joka tukee kauneusrutiiniasi tarjoamalla parasta palvelua ja tuotteita. Tutustu valikoimaamme t&auml;n&auml;&auml;n ja koe itse, miksi Aurora on oikea valinta sinulle!<\/p>",
+                            "richtext": "<h2>1. Huolella valikoitu tuotevalikoima<\/h2><p>Meilt&auml; l&ouml;yd&auml;t vain parhaat, testatut tuotteet, jotka t&auml;ytt&auml;v&auml;t korkeimmat laatuvaatimukset ja sopivat kaikenlaisille iho- ja hiustyypeille.<br><br><\/p><h2>2. Ymp&auml;rist&ouml;tietoisuus<\/h2><p>Sitoudumme tarjoamaan tuotteita, jotka ovat paitsi tehokkaita, my&ouml;s ymp&auml;rist&ouml;yst&auml;v&auml;llisi&auml;. Valikoimamme sis&auml;lt&auml;&auml; runsaasti luonnonmukaisia ja cruelty-free tuotteita.<br><br><\/p><h2>3. Asiantunteva asiakaspalvelu<\/h2><p>Meid&auml;n koulutettu tiimimme on valmiina auttamaan sinua l&ouml;yt&auml;m&auml;&auml;n juuri oikeat tuotteet. Voit aina k&auml;&auml;nty&auml; puoleemme kysymyksiss&auml;si.<br><br><\/p><h2>4. Jatkuvat tarjoukset ja kampanjat<\/h2><p>Tarjoamme asiakkaillemme jatkuvasti vaihtuvia tarjouksia ja kampanjoita, jotta voit l&ouml;yt&auml;&auml; suosikkituotteesi parhaaseen hintaan.<br><br><\/p><h2>5. Ilmainen toimitus tietyill&auml; ehdoilla<\/h2><p>Kun ostoksesi ylitt&auml;v&auml;t tietyn summan, saat tilauksesi toimitettuna ilman lis&auml;kuluja suoraan kotiovellesi.<br><br><\/p><h2>6. Nopeat toimitusajat<\/h2><p>Tied&auml;mme, ett&auml; odottaminen on tuskallista, siksi pyrimme varmistamaan, ett&auml; jokainen tilaus saapuu nopeasti ja luotettavasti.<br><br><\/p><h2>7. Helppo ja turvallinen maksaminen<\/h2><p>Tarjoamme useita maksutapoja, jotka ovat kaikki 100% turvallisia, jotta voit tehd&auml; ostoksia huoletta.<br><br><\/p><h2>8. Eksklusiiviset tuotteet<\/h2><p>Meilt&auml; l&ouml;yd&auml;t monia tuotemerkkej&auml; ja tuotteita, joita et muualta saa, antaen sinulle mahdollisuuden kokea ainutlaatuisia kauneudenhoitotuotteita.<br><br><\/p><h2>9. Kanta-asiakasohjelma<\/h2><p>Liity kanta-asiakkaaksi ja nauti erityiseduista, pisteist&auml;, jotka kertyv&auml;t jokaisesta ostoksestasi, ja erikoistarjouksista, jotka on suunnattu vain j&auml;senillemme.<br><br><\/p><h2>10. Tyytyv&auml;isyystakuu<\/h2><p>Olemme niin varmoja tuotteidemme laadusta, ett&auml; tarjoamme tyytyv&auml;isyystakuun: jos et ole tyytyv&auml;inen ostokseesi, voit palauttaa sen.<\/p><p><br><\/p><p>Kun valitset Auroran, valitset enemm&auml;n kuin vain kauneudenhoitotuotteita. Valitset kumppanin, joka tukee kauneusrutiiniasi tarjoamalla parasta palvelua ja tuotteita. Tutustu valikoimaamme t&auml;n&auml;&auml;n ja koe itse, miksi Aurora on oikea valinta sinulle!<\/p>",
                             "sectionContainer": "compact",
                             "sectionTextAlign": "nil",
                             "sectionColorScheme": false,
@@ -1579,6 +1646,260 @@
                         "blocks": [],
                         "settings": [],
                         "sticky": true
+                    },
+                    {
+                        "id": "24478de3cee4a57e5aedcfbeefe042c9",
+                        "title": "Tuotekaruselli",
+                        "name": "product-carousel",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Poimi koriin parhaat seerumit",
+                            "sectionSubtitle": "",
+                            "sectionDescription": "",
+                            "sectionQuickLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": ""
+                            },
+                            "listType": "category",
+                            "tagId": "",
+                            "category": {
+                                "type": "category",
+                                "id": "1809343",
+                                "name": "Kasvot"
+                            },
+                            "manufacturer": {
+                                "type": "manufacturer",
+                                "id": "",
+                                "name": ""
+                            },
+                            "productAmount": "8",
+                            "customDisplayInformation": false,
+                            "productPerRow": "3",
+                            "showProductName": true,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showAddToCart": true,
+                            "showStockBalance": true,
+                            "showVariants": true,
+                            "showPromotionSlide": false,
+                            "promotionText": "",
+                            "promotionLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "promotionTextColor": "#ffffff",
+                            "promotionImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "promotionImgDimming": "20",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionTextAlign": "nil",
+                            "sectionQuickLinkStyle": "nil",
+                            "carouselStyle": "2",
+                            "carouselNavigation": "hover",
+                            "carouselPagination": "on",
+                            "carouselAutoplaySpeed": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "8ca9970920e82881c916d5aaed649b08",
+                        "title": "Tuotekaruselli",
+                        "name": "product-carousel",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Poimi koriin Nivean kestosuosikit",
+                            "sectionSubtitle": "",
+                            "sectionDescription": "",
+                            "sectionQuickLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": ""
+                            },
+                            "listType": "manufacturer",
+                            "tagId": "",
+                            "category": {
+                                "type": "category",
+                                "id": "",
+                                "name": ""
+                            },
+                            "manufacturer": {
+                                "type": "manufacturer",
+                                "id": "1946671",
+                                "name": "Nivea"
+                            },
+                            "productAmount": "8",
+                            "customDisplayInformation": false,
+                            "productPerRow": "3",
+                            "showProductName": true,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showAddToCart": true,
+                            "showStockBalance": true,
+                            "showVariants": true,
+                            "showPromotionSlide": false,
+                            "promotionText": "",
+                            "promotionLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "promotionTextColor": "#ffffff",
+                            "promotionImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "promotionImgDimming": "20",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionTextAlign": "nil",
+                            "sectionQuickLinkStyle": "nil",
+                            "carouselStyle": "2",
+                            "carouselNavigation": "hover",
+                            "carouselPagination": "on",
+                            "carouselAutoplaySpeed": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "86b9affd375c1b693b18acbabbc4dd43",
+                        "title": "Hero ajastin",
+                        "name": "hero-countdown",
+                        "settings": {
+                            "countdownPosition": "below",
+                            "sectionOverline": "Kuukauden tarjoukset",
+                            "sectionTitle": "\u00c4l\u00e4 ohita n\u00e4it\u00e4 huipputarjouksia!",
+                            "sectionSubtitle": "Nappaa kuukauden parhaat kauneustarjoukset ennen kuin ne loppuvat - shoppaile nyt!",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Shoppaile nyt",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "datetime": "2027-11-01T12:15:00.000+02:00",
+                            "richtext": "",
+                            "img": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1559881230-1af605ca3f67?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxza2luJTIwY2FyZXxlbnwwfHwxfHwxNzE3MjI4MjE4fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1559881230-1af605ca3f67?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxza2luJTIwY2FyZXxlbnwwfHwxfHwxNzE3MjI4MjE4fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "51",
+                                "offset_left": "25",
+                                "width": "3000",
+                                "height": "2000"
+                            },
+                            "sectionTextAlign": "center",
+                            "btnStyle": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "imgDimming": "0",
+                            "imgBlur": "0",
+                            "zeroPad": true,
+                            "hideTimeUnitOnZero": false,
+                            "showYears": false,
+                            "showMonths": false,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": true,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionMinHeight": "60"
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "manufacturer": {
+                "sections": [
+                    {
+                        "name": "manufacturer-template",
+                        "id": "manufacturer-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "password": {
+                "sections": [
+                    {
+                        "name": "password-template",
+                        "id": "password-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
                     }
                 ]
             }
@@ -1588,23 +1909,24 @@
             "186353": {
                 "sections": [
                     {
-                        "id": "76f61f9e1fe91ce609947c07b3d6860e",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "0510f976e136e673708b0c0b0747de67",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Usein kysytyt kysymykset",
                             "sectionSubtitle": "T\u00e4ss\u00e4 on kymmenen yleist\u00e4 kysymyst\u00e4 kauneudenhoitotuotteista ja verkkokaupasta tilaamisesta sek\u00e4 vastaukset niihin:",
+                            "sectionDescription": "",
                             "sectionContainer": "nil",
-                            "sectionHeaderTextAlign": "start",
-                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionHeaderFontSizeScale": "1.2",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "7",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -1743,23 +2065,24 @@
             "186358": {
                 "sections": [
                     {
-                        "id": "d43af487e47dae2d632d20d01b0a9060",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "79af36429a7e2ad1250a0980b640146f",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Asiakaspalvelu",
-                            "sectionSubtitle": "Tervetuloa Auroran asiakaspalvelusivulle! Olemme t\u00e4\u00e4ll\u00e4 auttaaksemme sinua kaikissa kauneudenhoitoon liittyviss\u00e4 kysymyksiss\u00e4si. Olipa kyseess\u00e4 tuotetiedustelu, tilauksen status tai palautus, asiakaspalvelutiimimme on valmiina tarjoamaan sinulle ensiluokkaista palvelua.",
+                            "sectionSubtitle": "Tervetuloa Auroran asiakaspalvelusivulle!",
+                            "sectionDescription": "<p>Olemme t&auml;&auml;ll&auml; auttaaksemme sinua kaikissa kauneudenhoitoon liittyviss&auml; kysymyksiss&auml;si. Olipa kyseess&auml; tuotetiedustelu, tilauksen status tai palautus, asiakaspalvelutiimimme on valmiina tarjoamaan sinulle ensiluokkaista palvelua.<\/p>",
                             "sectionContainer": "nil",
                             "sectionHeaderTextAlign": "nil",
-                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionHeaderFontSizeScale": "1.2",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
-                            "sectionPaddingMode": "auto",
-                            "sectionPaddingTop": "0",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -1942,16 +2265,17 @@
                         "blocks": []
                     },
                     {
-                        "id": "784d9d875252c1bcf6297d7d451dd778",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "f71d523c603f643b4fc6c3d4c50259a9",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Tervetuloa Viitasaaren tehtaanmyym\u00e4l\u00e4\u00e4mme!",
-                            "sectionSubtitle": "Oletko valmis tutustumaan ainutlaatuiseen kauneudenhoitotuotteiden maailmaan suoraan l\u00e4hteest\u00e4? Kutsun sinut syd\u00e4mellisesti Viitasaarelle, miss\u00e4 sijaitsee kauneudenhoitotuotteita valmistavan yrityksemme ylpeydenaihe: oma tehtaanmyym\u00e4l\u00e4mme. ",
+                            "sectionSubtitle": "Oletko valmis tutustumaan ainutlaatuiseen kauneudenhoitotuotteiden maailmaan suoraan l\u00e4hteest\u00e4?",
+                            "sectionDescription": "<p>Kutsun sinut syd\u00e4mellisesti Viitasaarelle, miss\u00e4 sijaitsee kauneudenhoitotuotteita valmistavan yrityksemme ylpeydenaihe: oma tehtaanmyym\u00e4l\u00e4mme.&nbsp;<\/p>",
                             "sectionContainer": "nil",
                             "sectionHeaderTextAlign": "nil",
-                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionHeaderFontSizeScale": "1.2",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
@@ -2104,23 +2428,24 @@
                         "blocks": []
                     },
                     {
-                        "id": "3ec09e7a79be4d72b3fec3e4df4cf4e7",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "25c611c0a0e3273f9dc5400f44fca08c",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Auroran tarina",
-                            "sectionSubtitle": "Aurora syntyi vuonna 2002 Viitasaaren syd\u00e4mess\u00e4, kun paikallinen yritt\u00e4j\u00e4perhe p\u00e4\u00e4tti yhdist\u00e4\u00e4 rakkauden luontoon ja intohimon kauneudenhoitoon. Yrityksen nimi, Aurora, heijastaa perustajien halua tuoda jokaisen asiakkaan el\u00e4m\u00e4\u00e4n ripauksen Suomen taianomaisia revontulia: puhdasta kauneutta ja luonnollista valoa.",
+                            "sectionSubtitle": "Aurora Viitasaaren syd\u00e4mest\u00e4",
+                            "sectionDescription": "<p>Aurora syntyi vuonna 2002 Viitasaaren syd&auml;mess&auml;, kun paikallinen yritt&auml;j&auml;perhe p&auml;&auml;tti yhdist&auml;&auml; rakkauden luontoon ja intohimon kauneudenhoitoon. Yrityksen nimi, Aurora, heijastaa perustajien halua tuoda jokaisen asiakkaan el&auml;m&auml;&auml;n ripauksen Suomen taianomaisia revontulia: puhdasta kauneutta ja luonnollista valoa.<\/p>",
                             "sectionContainer": "nil",
                             "sectionHeaderTextAlign": "nil",
-                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionHeaderFontSizeScale": "1.2",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "7",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -2309,23 +2634,24 @@
             "186373": {
                 "sections": [
                     {
-                        "id": "c5c35ad38773dee5581919010841b389",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "e693316f9de2263a72adb43551bc804c",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Kest\u00e4v\u00e4 kauneus: Kuinka me kompensoimme p\u00e4\u00e4st\u00f6mme",
-                            "sectionSubtitle": "Tervetuloa tutustumaan siihen, miten Aurora, kauneudenhoitotuotteiden edell\u00e4k\u00e4vij\u00e4, vastaa ymp\u00e4rist\u00f6vastuuseen toiminnassaan. Olemme sitoutuneet paitsi luomaan korkealaatuisia tuotteita, my\u00f6s minimoimaan ja kompensoimaan toimintamme ymp\u00e4rist\u00f6vaikutukset.",
+                            "sectionTitle": "Kest\u00e4v\u00e4 kauneus",
+                            "sectionSubtitle": " Kuinka me kompensoimme p\u00e4\u00e4st\u00f6mme?",
+                            "sectionDescription": "<p>Tervetuloa tutustumaan siihen, miten Aurora, kauneudenhoitotuotteiden edell&auml;k&auml;vij&auml;, vastaa ymp&auml;rist&ouml;vastuuseen toiminnassaan. Olemme sitoutuneet paitsi luomaan korkealaatuisia tuotteita, my&ouml;s minimoimaan ja kompensoimaan toimintamme ymp&auml;rist&ouml;vaikutukset.<\/p>",
                             "sectionContainer": "compact",
-                            "sectionHeaderTextAlign": "nil",
-                            "sectionHeaderFontSizeScale": "1.3",
+                            "sectionHeaderTextAlign": "start",
+                            "sectionHeaderFontSizeScale": "1.2",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "7",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -2393,7 +2719,7 @@
                 "styleGridGutterWidth": "1.42855rem",
                 "styleIconStrokeWidth": "1.5px",
                 "styleFormFloatingHeight": "2.90rem",
-                "styleFormFloatingLineHeight": "1.25",
+                "styleFormFloatingLineHeight": "1.4",
                 "styleFormFloatingPaddingY": "0.8rem",
                 "styleFormFloatingPaddingX": "1rem",
                 "styleFormFloatingInputPaddingT": "1.525rem",
@@ -2521,7 +2847,7 @@
                 "productShowVariantOption3TaxonomyType": false,
                 "productShowName": true,
                 "productShowManufacturer": true,
-                "productShowPromotion": true,
+                "productShowPromotion": false,
                 "productShowPricing": true,
                 "productShowRating": true,
                 "productShowNewBadge": true,
