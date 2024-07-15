@@ -152,7 +152,7 @@
             --site-mobile-header-template-columns: auto 1fr auto;
             --site-mobile-header-logo-position: items-center;
             --site-mobile-header-logo-items-align: start;
-            --site-mobile-header-logo-margin: 0 20px 0 0;
+            --site-mobile-header-logo-margin: 0;
             --site-mobile-header-nav-position: items-start;
             --site-mobile-header-nav-items-align: start;
             --site-mobile-header-actions-position: items-end;
@@ -161,7 +161,7 @@
             --site-mobile-header-template-columns: 1fr auto 1fr;
             --site-mobile-header-logo-position: items-center;
             --site-mobile-header-logo-items-align: center;
-            --site-mobile-header-header-logo-margin: 0 20px;
+            --site-mobile-header-logo-margin: 0;
             --site-mobile-header-nav-position: items-start;
             --site-mobile-header-nav-items-align: start;
             --site-mobile-header-actions-position: items-end;
@@ -211,8 +211,8 @@
     }
     {%- if settings.styleCartVariant == 2 -%}
 
-        {%- assign styleformBgColorBrightness = settings.style_form_bg_color | color_brightness -%}
-        {%- assign styleformBorderColorBrightness = settings.style_form_border_color | color_brightness -%}
+        {%- assign styleFormBgColorBrightness = settings.style_form_bg_color | color_brightness -%}
+        {%- assign styleFormBorderColorBrightness = settings.style_form_border_color | color_brightness -%}
         {%- assign styleTextColorBrightness = settings.style_text_color | color_brightness -%}
         {%- assign styleButtonBgColorColorBrightness = settings.style_btn_bg_color | color_brightness -%}
 
@@ -233,7 +233,7 @@
             --style-border-focus-color: {{ settings.style_border_color | color_lighten: 25 }};
             --style-border-accent-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 50 }};
 
-            {%- if styleformBorderColorBrightness > 190 -%}
+            {%- if styleFormBorderColorBrightness > 190 -%}
                 --style-form-border-focus-color: {{ settings.style_form_border_color | color_darken: 10 }};
                 --style-form-border-disabled-color: {{ settings.style_form_border_color | color_darken: 10 }};
             {%- else -%}
@@ -261,7 +261,7 @@
                 --style-btn-border-active-color: {{ settings.style_btn_bg_color | color_lighten: 13 }};
             {%- endif -%}
 
-            {%- if styleformBgColorBrightness > 190 -%}
+            {%- if styleFormBgColorBrightness > 190 -%}
                 --style-form-bg-hover-color: {{ settings.style_form_bg_color | color_darken: 5 }};
                 --style-form-bg-disabled-color: {{ settings.style_form_bg_color | color_darken: 10 }};
             {%- else -%}
@@ -2113,6 +2113,10 @@
                         "label": {
                             "en": "Logo",
                             "fi": "Logo"
+                        },
+                        "info": {
+                            "en": "Always add primary logo. Logo is shown when user scrolls the page. Make sure that logo works correctly also on background color.",
+                            "fi": "Lisää aina ensisijainen logo. Logo näkyy niissä tilanteissa, kun käyttäjä vierittää sivua. Varmista, että logo toimii oikein myös taustavärillä."
                         }
                     },
                     {
@@ -2133,8 +2137,12 @@
                         "id": "secondaryLogoImg",
                         "type": "image-picker",
                         "label": {
-                            "en": "Logo for transparent background",
-                            "fi": "Logo läpinäkyvälle taustalle"
+                            "en": "Secondary logo",
+                            "fi": "Toissijainen logo"
+                        },
+                        "info": {
+                            "en": "Secondary logo is shown on the frontpage when header is transparent. After user scrolls the page, secondary logo will be replaced with primary logo, so make sure to add both logos.",
+                            "fi": "Toisisijainen logo näytetään etusivulla ylätunnisteen ollessa läpinäkyvä. Kun käyttäjä vierittää sivua, toissijainen logo korvataan ensisijaisella logolla, joten muista lisätä molemmat logot."
                         }
                     },
                     {
