@@ -62,7 +62,7 @@
                     }
 
                     .site-header-items-nav-container {
-                        margin-top: var(--site-header-items-padding-y);
+                        margin-top: calc(var(--site-header-items-padding-y) * .5);
                     }
                 }
 
