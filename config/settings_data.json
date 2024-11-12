@@ -133,6 +133,7 @@
             "accessibilityShowBackToTopButton": true,
             "accessibilityShowWishlist": true,
             "cartShowAddNotification": true,
+            "taxInformation": true,
             "taxFreeShopping": false,
             "cookiePolicyLayout": "simple",
             "cookiePolicyPosition": "middle",
@@ -154,11 +155,13 @@
             "productShowPromotionBadge": true,
             "productShowDiscountBadge": true,
             "productShowOutOfStockBadge": true,
+            "productShowBackorderBadge": true,
             "productShowDiscountPercentage": true,
             "productFloorDiscountPercentage": true,
             "productWrapName": false,
             "productShowAddToCart": true,
             "productShowStockBalance": false,
+            "productShowStockBalanceAsNumber": false,
             "productShowSku": false,
             "articleImageAspectRatio": "4:3",
             "articleImageAspectRatioFit": "cover",
@@ -614,6 +617,7 @@
                             "showPromotionBadge": true,
                             "showDiscountBadge": true,
                             "showOutOfStockBadge": true,
+                            "showBackorderBadge": true,
                             "showAddToCart": true,
                             "showStockBalance": true,
                             "showVariants": true,
@@ -919,6 +923,7 @@
                             "showPromotionBadge": true,
                             "showDiscountBadge": true,
                             "showOutOfStockBadge": true,
+                            "showBackorderBadge": true,
                             "showAddToCart": true,
                             "showStockBalance": true,
                             "showVariants": true,
@@ -1542,6 +1547,7 @@
                             "showPromotionBadge": true,
                             "showDiscountBadge": true,
                             "showOutOfStockBadge": true,
+                            "showBackorderBadge": true,
                             "showStockBalance": true,
                             "showRelatedProductsAsOptions": false
                         },
@@ -1693,6 +1699,7 @@
                             "showPromotionBadge": true,
                             "showDiscountBadge": true,
                             "showOutOfStockBadge": true,
+                            "showBackorderBadge": true,
                             "showAddToCart": true,
                             "showStockBalance": true,
                             "showVariants": true,
@@ -1785,6 +1792,7 @@
                             "showPromotionBadge": true,
                             "showDiscountBadge": true,
                             "showOutOfStockBadge": true,
+                            "showBackorderBadge": true,
                             "showAddToCart": true,
                             "showStockBalance": true,
                             "showVariants": true,
@@ -2585,6 +2593,7 @@
                         "title": "Kuvia tekstin kanssa",
                         "name": "images-with-text",
                         "settings": {
+                            "imagesLayout": 1,
                             "sectionOverline": "",
                             "sectionTitle": "Tulevaisuuden suunnitelmat",
                             "sectionSubtitle": "",
@@ -2844,6 +2853,7 @@
                 "accessibilityShowBackToTopButton": true,
                 "accessibilityShowWishlist": true,
                 "cartShowAddNotification": true,
+                "taxInformation": true,
                 "taxFreeShopping": false,
                 "cookiePolicyLayout": "simple",
                 "cookiePolicyPosition": "middle",
@@ -2865,11 +2875,13 @@
                 "productShowPromotionBadge": true,
                 "productShowDiscountBadge": true,
                 "productShowOutOfStockBadge": true,
+                "productShowBackorderBadge": true,
                 "productShowDiscountPercentage": true,
                 "productFloorDiscountPercentage": true,
                 "productWrapName": false,
                 "productShowAddToCart": true,
                 "productShowStockBalance": false,
+                "productShowStockBalanceAsNumber": false,
                 "productShowSku": false,
                 "articleImageAspectRatio": "4:3",
                 "articleImageAspectRatioFit": "cover",
@@ -3113,7 +3125,7 @@
                                                     "width": "1080",
                                                     "height": "1080"
                                                 },
-                                                "colorScheme": "#ffffff"
+                                                "colorSchemeCustomColor": "#ffffff"
                                             }
                                         },
                                         {
@@ -3137,7 +3149,7 @@
                                                     "width": "1080",
                                                     "height": "1080"
                                                 },
-                                                "colorScheme": "#ffffff"
+                                                "colorSchemeCustomColor": "#ffffff"
                                             }
                                         },
                                         {
@@ -3161,7 +3173,7 @@
                                                     "width": "1080",
                                                     "height": "1080"
                                                 },
-                                                "colorScheme": "#ffffff"
+                                                "colorSchemeCustomColor": "#ffffff"
                                             }
                                         },
                                         {
@@ -3185,7 +3197,7 @@
                                                     "width": "1080",
                                                     "height": "1080"
                                                 },
-                                                "colorScheme": "#ffffff"
+                                                "colorSchemeCustomColor": "#ffffff"
                                             }
                                         },
                                         {
@@ -3209,7 +3221,7 @@
                                                     "width": "1080",
                                                     "height": "1080"
                                                 },
-                                                "colorScheme": "#ffffff"
+                                                "colorSchemeCustomColor": "#ffffff"
                                             }
                                         }
                                     ]
@@ -3415,6 +3427,7 @@
                                 "showPromotionBadge": true,
                                 "showDiscountBadge": true,
                                 "showOutOfStockBadge": true,
+                                "showBackorderBadge": true,
                                 "showAddToCart": true,
                                 "showStockBalance": true,
                                 "showVariants": true,
